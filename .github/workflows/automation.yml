@@ -27,7 +27,7 @@ jobs:
 
       # Build Project
       - name: Build test project
-        run: dotnet build
+        run: dotnet build ./GitHubActions.Test
 
       # Test project
       - name: Test the project
