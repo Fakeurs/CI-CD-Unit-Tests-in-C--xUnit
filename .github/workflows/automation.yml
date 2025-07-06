@@ -31,4 +31,4 @@ jobs:
 
       # Test project
       - name: Test the project
-        run: dotnet test
+        run: dotnet test ./GitHubActions.Test
